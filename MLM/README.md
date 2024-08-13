@@ -1,0 +1,1 @@
+In this project, we will implement a basic Masked Language Model (MLM) from scratch using PyTorch which will help us understand the architecture and training process of MLMs, which are crucial for many NLP tasks. We will use the `bookcorpus` dataset from the Hugging Face `datasets` library for training.
