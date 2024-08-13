@@ -1,0 +1,5 @@
+1. Data Collection: Install yfinance and download Bitcoin price data (BTC-USD) from January 1, 2019, to the latest date, splitting into training (2019-2024) and testing (2024 onwards) sets.
+2. Data Visualization: Plot the Bitcoin prices over time, using different colors for training and testing data.
+3. Normalization: Normalize the price data using MinMaxScaler from scikit-learn, fitting the scaler on the training data.
+4. Model Preparation and Training: Prepare the data to use a set number of past data points (e.g., 60) for predictions, and train a model with specified parameters (MSE loss, Adam optimizer, 100 epochs, batch size 32).
+5. Prediction and Evaluation: Predict on testing data and plot the predicted vs. actual values, discussing the impact of changing the number of past data points used.
