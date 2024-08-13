@@ -1,0 +1,1 @@
+The objective of this project is to implement and experiment with an N-Gram language model using the Reuters dataset. The task involves building a probabilistic N-Gram model and creating a text generator based on the trained model with customizable parameters.
